@@ -1,0 +1,79 @@
+/* BUTTONS */
+.btn {
+	display: inline-block;
+	cursor: pointer;
+	background-color: #fff;
+	color: #333;
+	min-width: 135px;
+	padding: 20px 32px;
+	font-size: 15px;
+	font-weight: 600;
+	line-height: 14px;
+	border: none;
+	border-radius: 5px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.btn-outline {
+	background: none;
+	color: #fff;
+	border: 2px solid #fff;
+}
+
+.btn-outline:hover {
+	color: #fff;
+	border-color: #ccc;
+}
+
+.btn-cta:hover {
+	opacity: 0.8;
+}
+
+.btn-dark {
+	background-color: #000;
+	color: #fff;
+}
+/* TEXT STYLES*/
+.legal-text {
+	font-size: 10px;
+	color: #ccc;
+	margin-top: 20px;
+}
+
+.sub-link {
+	display: block;
+	color: #ccc;
+	font-size: 12px;
+	margin-top: 5px;
+	text-decoration: underline;
+}
+
+.text-xl {
+	font-size: 70px;
+	font-weight: bold;
+}
+
+.sub-text {
+	max-width: 850px;
+	margin-bottom: 10px;
+	font-size: 24px;
+}
+
+/* FORM CONTROL */
+.form-control {
+	margin: 20px 0;
+}
+
+.form-control label {
+	text-transform: uppercase;
+	display: block;
+}
+
+.form-control input {
+	width: 100%;
+	border: 2px #ccc solid;
+	border-radius: 5px;
+	height: 50px;
+	padding: 5px;
+}
